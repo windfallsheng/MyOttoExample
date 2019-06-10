@@ -35,9 +35,10 @@ public class PostActivity extends AppCompatActivity {
                 int uIndex = (int) (Math.random() * userArray.length);
                 int mIndex = (int) (Math.random() * messageArray.length);
                 EventData eventData = new EventData(userArray[uIndex], messageArray[mIndex]);
-                Log.i(TAG, "method:onCreate#mBtnSendEventData#onClick#eventData="+eventData);
+                Log.i(TAG, "method:onCreate#mBtnSendEventData#onClick#eventData#hashCode=" + eventData.hashCode());
+                Log.i(TAG, "method:onCreate#mBtnSendEventData#onClick#eventData=" + eventData);
                 OttoBus.getInstance().post(eventData);
-                finish();
+//                finish();
             }
         });
     }

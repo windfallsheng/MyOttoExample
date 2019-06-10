@@ -11,6 +11,14 @@
     tools:context="com.example.myotto.MainActivity">
 
     <Button
+        android:id="@+id/btn_jump_to_main_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="跳转到Main_Activity" />
+
+    <Button
         android:id="@+id/btn_jump_to_post"
         android:layout_width="200dp"
         android:layout_height="50dp"
@@ -26,6 +34,17 @@
         android:layout_centerInParent="true"
         android:text="Hello World!"
         android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_message_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_message"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="Hello World!"
+        android:textSize="15dp" />
 
     <Button
         android:id="@+id/btn_jump_to_produce"

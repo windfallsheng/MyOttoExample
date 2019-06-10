@@ -84,7 +84,7 @@ final class AnnotatedHandlerFinder {
 
         if ((method.getModifiers() & Modifier.PUBLIC) == 0) {
           throw new IllegalArgumentException("Method " + method + " has @Subscribe annotation on " + eventType
-              + " but is not 'public'.");
+                  + " but is not 'public'.");
         }
 
         Set<Method> methods = subscriberMethods.get(eventType);

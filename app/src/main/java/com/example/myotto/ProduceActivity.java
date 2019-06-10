@@ -24,6 +24,7 @@ public class ProduceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_produce);
         // 注册Otto
+        Log.i(TAG, "method:onCreate#this#hashCode=" + this.hashCode());
         OttoBus.getInstance().register(this);
     }
 
@@ -33,6 +34,7 @@ public class ProduceActivity extends AppCompatActivity {
         int uIndex = (int) (Math.random() * userArray.length);
         int mIndex = (int) (Math.random() * messageArray.length);
         EventData eventData = new EventData(userArray[uIndex], messageArray[mIndex]);
+        Log.i(TAG, "method:produceEventData#produceEventData#hashCode=" + eventData.hashCode());
         Log.i(TAG, "method:Produce#produceEventData#eventData=" + eventData);
         return eventData;
     }

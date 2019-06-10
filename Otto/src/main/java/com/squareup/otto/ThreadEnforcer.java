@@ -19,7 +19,7 @@ package com.squareup.otto;
 import android.os.Looper;
 
 /**
- * Enforces a thread confinement policy for methods on a particular event bus.
+ * Enforces a thread confinementconfinement policy for methods on a particular event bus.
  *
  * @author Jake Wharton
  */
