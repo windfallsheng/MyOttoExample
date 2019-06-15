@@ -50,8 +50,6 @@ public class MainActivity extends AppCompatActivity {
         });
         Log.i(TAG, "method:onCreate#this#hashCode=" + this.hashCode());
         OttoBus.getInstance().register(this);
-//        CrashReport.testJavaCrash();
-
     }
 
     @Subscribe
