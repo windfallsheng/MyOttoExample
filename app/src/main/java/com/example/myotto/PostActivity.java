@@ -17,7 +17,7 @@ public class PostActivity extends AppCompatActivity {
     private static final String TAG = PostActivity.class.getSimpleName();
     private Button mBtnSendEventData;
     private String userArray[] = {"Cyra", "Morgen", "Iris", "Mia"};
-    private String messageArray[] = {"我发表了新的美食文章", "我更新了我的相册", "我在FaceBook申请了账号", "我做了一个有小视频"};
+    private String messageArray[] = {"我发表了新的美食文章", "我更新了我的相册", "我在FaceBook申请了账号", "我做了一个好看的小视频"};
 
     public static void start(Context context) {
         context.startActivity(new Intent(context, PostActivity.class));
