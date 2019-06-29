@@ -1,4 +1,4 @@
-package com.example.myotto;
+package com.windfallsheng.myotto;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

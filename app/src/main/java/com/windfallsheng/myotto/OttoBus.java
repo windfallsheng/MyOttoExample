@@ -1,4 +1,4 @@
-package com.example.myotto;
+package com.windfallsheng.myotto;
 
 import com.squareup.otto.Bus;
 

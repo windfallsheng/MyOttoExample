@@ -1,4 +1,4 @@
-package com.example.myotto;
+package com.windfallsheng.myotto;
 
 public class EventData {
 
