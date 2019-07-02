@@ -30,7 +30,7 @@
 
             <TextView
                 android:id="@+id/tv_message"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Hello World!"
                 android:textSize="25dp" />
@@ -38,9 +38,9 @@
 
             <TextView
                 android:id="@+id/tv_message_update"
-                android:layout_width="match_parent"
-                android:layout_below="@+id/tv_message"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_message"
                 android:layout_marginTop="30dp"
                 android:text="Hello World!"
                 android:textSize="15dp" />
@@ -52,8 +52,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/selector_item_background"
             android:layout_marginTop="50dp"
+            android:background="@drawable/selector_item_background"
             android:text="跳转到Main_Activity"
             app:layout_rowWeight="1" />
 
