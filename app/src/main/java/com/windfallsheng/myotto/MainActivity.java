@@ -54,15 +54,15 @@ public class MainActivity extends AppCompatActivity {
 
     @Subscribe
     public void refreshMessage(EventData eventData) {
-        Log.i(TAG, "method:Subscribe#refreshMessage#eventData#hashCode=" + eventData.hashCode());
-        Log.i(TAG, "method:Subscribe#refreshMessage#eventData=" + eventData);
+        Log.i(TAG, "method:refreshMessage#Subscribe#eventData#hashCode=" + eventData.hashCode());
+        Log.i(TAG, "method:refreshMessage#Subscribe#eventData=" + eventData);
         mTvMessage.setText(eventData.getUserName() + ":\n\n" + eventData.getMessage());
     }
 
     @Subscribe
     public void updateMessage(EventData eventData) {
-        Log.i(TAG, "method:updateMessage#updateMessage#eventData#hashCode=" + eventData.hashCode());
-        Log.i(TAG, "method:Subscribe#updateMessage#eventData=" + eventData);
+        Log.i(TAG, "method:updateMessage#Subscribe#eventData#hashCode=" + eventData.hashCode());
+        Log.i(TAG, "method:updateMessage#Subscribe#eventData=" + eventData);
         mTvMessageUpdate.setText(eventData.getUserName() + ":\n\n" + eventData.getMessage());
     }
 

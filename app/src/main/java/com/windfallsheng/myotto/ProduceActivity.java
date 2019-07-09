@@ -26,6 +26,7 @@ public class ProduceActivity extends AppCompatActivity {
         // 注册Otto
         Log.i(TAG, "method:onCreate#this#hashCode=" + this.hashCode());
         OttoBus.getInstance().register(this);
+        Log.i(TAG, "method:onCreate#this#after call method register");
     }
 
     @Produce
